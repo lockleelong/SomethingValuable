@@ -1,0 +1,14 @@
+<Hotkey Space>				//窗口模式
+<SendPC Local>
+  <SendWinM WOW1>
+  <ClickMouse Window 900 530 NoRestore>     //就位中，点击准备就绪
+  <wait 500>
+  <ClickMouse Window 900 250 NoRestore>  //选择职位
+  <wait 500>
+  <ClickMouse Window 965 240 NoRestore>  //排到了，点击进入战场
+  <wait 500>
+  <ClickMouse Window 965 750 NoRestore>  //排到了，点击进入战场
+
+<Hotkey pause>
+	<sendpc local>
+	<ToggleHotkeys>
